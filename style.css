@@ -36,6 +36,8 @@ body {
 
 .thumbnail {
 	border: 0px; 
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
@@ -43,3 +45,12 @@ body {
     height: 200px;
 }
 
+
+h2 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.caption {
+	text-align: center; 
+}
