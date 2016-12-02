@@ -22,15 +22,9 @@ body {
   color:#fff;
   font-weight:800;
   font-size:14pt;
-  padding:25px;
-  text-align:center;
-}
-
-.line {
-  padding-top:20px;
-  white-space:no-wrap;
-  overflow:hidden;
-  text-align:center;
+  padding:50px;
+  min-width: 400px;
+  float: right;
 }
 
 .thumbnail {
@@ -66,7 +60,38 @@ h2 {
 .bg-2 {
     padding-left: 200px;
     padding-right: 200px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+}
+
+#interior-design h3 {
+    font-size: 15px;
+}
+
+#interior-design .caption {
+    padding-top: 0px;
+}
+
+#interior-design .thumbnail {
+    padding: 10px;
+}
+
+#interior-design h2 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.bg-3 {
+    background-color: #505050;
+    color: #ffffff;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 50px;
+}
+
+.bg-4 {
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 50px;
 }
 
 .bg-5 {
