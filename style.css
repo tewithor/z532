@@ -2,20 +2,26 @@ body,html {
   height: 100%;
 }
 
-body {
-  padding-top: 50px;
+p {
+  padding-top: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
+.navbar {
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
 .wide {
   width:100%;
   height:100%;
   height:calc(100% - 1px);
-  background-image:url('https://s15.postimg.org/ab5nd7r63/14917185_1775466699371396_6715113641440315712_o.jpg');
+  background-image:url("https://s15.postimg.org/ab5nd7r63/14917185_1775466699371396_6715113641440315712_o.jpg");
   background-size:cover;
 }
 
 .wide img {
   width:100%;
+    padding-top: 20px;
 }
 
 .logo {
@@ -42,6 +48,13 @@ body {
 h2 {
 	padding-top: 50px;
 	padding-bottom: 25px;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .caption {
@@ -63,21 +76,22 @@ h2 {
     padding-bottom: 50px;
 }
 
+#interior-design h2 {
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
 #interior-design h3 {
     font-size: 15px;
 }
 
 #interior-design .caption {
-    padding-top: 0px;
+    padding: 0px;
 }
 
 #interior-design .thumbnail {
     padding: 10px;
-}
-
-#interior-design h2 {
-    padding-top: 30px;
-    padding-bottom: 15px;
+    margin: auto;
 }
 
 .bg-3 {
@@ -96,7 +110,7 @@ h2 {
 
 .bg-5 {
     background-color: #000000;
-    color: #ffffff;
+    color: gray;
     padding-top: 15px;
 	padding-bottom: 15px;
 }
