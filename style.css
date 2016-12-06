@@ -1,9 +1,10 @@
-body,html {
+html, body {
   height: 100%;
 }
 
 p {
   padding-top: 10px;
+  font-size: 15px;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -122,4 +123,14 @@ h3 {
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.bg-4 p {
+    padding-top: 0px;
+    font-size: 20px;   
+}
+
+#map-container { 
+    height: 300px;
+
 }
