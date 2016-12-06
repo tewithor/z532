@@ -10,7 +10,13 @@ p {
 
 .navbar {
     font-family: 'Source Sans Pro', sans-serif;
+    height: 30px;
+    background-color: #ffffff;
     
+}
+
+.navlogo {
+   
 }
 .wide {
   width:100%;
@@ -102,7 +108,7 @@ h3 {
     color: #ffffff;
     padding-left: 120px;
     padding-right: 120px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 
 .bg-4 {
@@ -127,10 +133,27 @@ h3 {
 
 .bg-4 p {
     padding-top: 0px;
-    font-size: 20px;   
+    font-size: 20px;  
+    
+}
+
+.bg-4 .thumbnail {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+
+#socmed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #map-container { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 300px;
+    width: 500px;
 
 }
